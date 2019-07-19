@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="在学习过程中，被动接受知识对自己的提高是轻微的。比如看网课学习，在听老师讲解的时候感觉简单易懂，代码逻辑清晰，当自己敲代码的时候，却无从下手，这也是属于眼高手低的范畴。当自己主动学习，主动思考其效率和对个人的提升无疑是高于被动接受的。然而使你提高最大的是主动说出自己的认识，把自己的知识和理解传达给别人，这种方式是对自己的提升无疑是最显著的。">
+<meta name="description" content="在学习过程中，被动接受知识对自己的提高是轻微的。比如看网课学习，在听老师讲解的时候感觉简单易懂，代码逻辑清晰，当自己敲代码的时候，却无从下手，这也是属于眼高手低的范畴。当自己主动学习，主动思考其效率和对个人的提升无疑是高于被动接受的。然而使你提高最大的是主动说出自己的认识，把自己的知识和理解传达给别人，这种方式是对自己的提升无疑是最显著的。          document.querySelec">
 <meta property="og:type" content="article">
 <meta property="og:title" content="写博客的重要性">
 <meta property="og:url" content="http://yoursite.com/2019/07/17/the-importance-of-blog/index.html">
 <meta property="og:site_name" content="xubo的个人博客">
-<meta property="og:description" content="在学习过程中，被动接受知识对自己的提高是轻微的。比如看网课学习，在听老师讲解的时候感觉简单易懂，代码逻辑清晰，当自己敲代码的时候，却无从下手，这也是属于眼高手低的范畴。当自己主动学习，主动思考其效率和对个人的提升无疑是高于被动接受的。然而使你提高最大的是主动说出自己的认识，把自己的知识和理解传达给别人，这种方式是对自己的提升无疑是最显著的。">
+<meta property="og:description" content="在学习过程中，被动接受知识对自己的提高是轻微的。比如看网课学习，在听老师讲解的时候感觉简单易懂，代码逻辑清晰，当自己敲代码的时候，却无从下手，这也是属于眼高手低的范畴。当自己主动学习，主动思考其效率和对个人的提升无疑是高于被动接受的。然而使你提高最大的是主动说出自己的认识，把自己的知识和理解传达给别人，这种方式是对自己的提升无疑是最显著的。          document.querySelec">
 <meta property="og:locale" content="default">
 <meta property="og:updated_time" content="2019-07-17T02:22:04.005Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="写博客的重要性">
-<meta name="twitter:description" content="在学习过程中，被动接受知识对自己的提高是轻微的。比如看网课学习，在听老师讲解的时候感觉简单易懂，代码逻辑清晰，当自己敲代码的时候，却无从下手，这也是属于眼高手低的范畴。当自己主动学习，主动思考其效率和对个人的提升无疑是高于被动接受的。然而使你提高最大的是主动说出自己的认识，把自己的知识和理解传达给别人，这种方式是对自己的提升无疑是最显著的。">
+<meta name="twitter:description" content="在学习过程中，被动接受知识对自己的提高是轻微的。比如看网课学习，在听老师讲解的时候感觉简单易懂，代码逻辑清晰，当自己敲代码的时候，却无从下手，这也是属于眼高手低的范畴。当自己主动学习，主动思考其效率和对个人的提升无疑是高于被动接受的。然而使你提高最大的是主动说出自己的认识，把自己的知识和理解传达给别人，这种方式是对自己的提升无疑是最显著的。          document.querySelec">
 
 
 
@@ -300,7 +300,25 @@
 
       
         <p>在学习过程中，被动接受知识对自己的提高是轻微的。比如看网课学习，在听老师讲解的时候感觉简单易懂，代码逻辑清晰，当自己敲代码的时候，却无从下手，这也是属于眼高手低的范畴。<br>当自己主动学习，主动思考其效率和对个人的提升无疑是高于被动接受的。然而使你提高最大的是主动说出自己的认识，把自己的知识和理解传达给别人，这种方式是对自己的提升无疑是最显著的。</p>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
       
     </div>
     
