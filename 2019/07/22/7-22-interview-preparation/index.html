@@ -89,7 +89,7 @@
 <meta property="og:description" content="@: 面试题准备整个简历看上去有点虚，浅薄，技术上需要时间和项目的深刻磨砺 MySQL 优化：1.数据库引擎的选择（myisam ,innodb），字段类型的合理选择 2.用 explain 分析 SQL 语句，并优化SQL 语句 ​    2.1当只要一行数据时使用LIMIT 1可以增加性能，这样， MySQL数据库引擎会在找到一条数据后停止搜索，而不是继续往后查找下一条符合记录的数据。 ​">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://images2015.cnblogs.com/blog/705728/201604/705728-20160424234824085-667046040.png">
-<meta property="og:updated_time" content="2019-07-22T03:57:01.005Z">
+<meta property="og:updated_time" content="2019-07-22T06:26:54.079Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="7-22-面试题准备">
 <meta name="twitter:description" content="@: 面试题准备整个简历看上去有点虚，浅薄，技术上需要时间和项目的深刻磨砺 MySQL 优化：1.数据库引擎的选择（myisam ,innodb），字段类型的合理选择 2.用 explain 分析 SQL 语句，并优化SQL 语句 ​    2.1当只要一行数据时使用LIMIT 1可以增加性能，这样， MySQL数据库引擎会在找到一条数据后停止搜索，而不是继续往后查找下一条符合记录的数据。 ​">
@@ -358,7 +358,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1.8k 字
+                  1.9k 字
                 </span>
               
 
@@ -374,7 +374,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  6 分钟
+                  7 分钟
                 </span>
               
             </div>
@@ -455,7 +455,8 @@
 <ol start="2">
 <li>打断点，设置log日志输出</li>
 </ol>
-<h2 id="缓存"><a href="#缓存" class="headerlink" title="缓存"></a>缓存</h2><h3 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a>Redis</h3><h3 id="分布式缓存"><a href="#分布式缓存" class="headerlink" title="分布式缓存"></a>分布式缓存</h3><h4 id="为什么要使用分布式缓存"><a href="#为什么要使用分布式缓存" class="headerlink" title="为什么要使用分布式缓存"></a>为什么要使用分布式缓存</h4><p>1、本地缓存的问题<br>本地缓存速度一开始高于分布式缓存，但是随着其缓存数量的增加，所占内存越来越大，系统运行内存越来越小，最后系统会被拖慢（这一点与第二点联系起来）<br>本地缓存存于本机，其缓存数量与大小受本机内存大小限制<br>本地缓存存于本机，其他机器的访问不到这样的缓存</p>
+<h2 id="缓存"><a href="#缓存" class="headerlink" title="缓存"></a>缓存</h2><h3 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a>Redis</h3><p>Redis 是一个开源的，基于内存的结构化数据存储媒介，可以作为数据库，缓存服务或消息服务使用。<br>Redis支持多种数据结构，包括字符串（string）,哈希表(hash)，列表（list）,集合（set），有序集合（zset）；</p>
+<h3 id="分布式缓存"><a href="#分布式缓存" class="headerlink" title="分布式缓存"></a>分布式缓存</h3><h4 id="为什么要使用分布式缓存"><a href="#为什么要使用分布式缓存" class="headerlink" title="为什么要使用分布式缓存"></a>为什么要使用分布式缓存</h4><p>1、本地缓存的问题<br>本地缓存速度一开始高于分布式缓存，但是随着其缓存数量的增加，所占内存越来越大，系统运行内存越来越小，最后系统会被拖慢（这一点与第二点联系起来）<br>本地缓存存于本机，其缓存数量与大小受本机内存大小限制<br>本地缓存存于本机，其他机器的访问不到这样的缓存</p>
 <p>高并发环境下，例如典型的淘宝双11秒杀，几分钟内上亿的用户涌入淘宝，这个时候如果访问不加拦截，让大量的读写请求涌向数据库，由于磁盘的处理速度与内存显然不在一个量级，服务器马上就要宕机。从减轻数据库的压力和提高系统响应速度两个角度来考虑，都会在数据库之前加一层缓存，访问压力越大的，在缓存之前就开始CDN拦截图片等访问请求。<br>并且由于最早的单台机器的内存资源以及承载能力有限，如果大量使用本地缓存，也会使相同的数据被不同的节点存储多份，对内存资源造成较大的浪费，因此，才催生出了分布式缓存。<br>假若业务场景需要用到持久化缓存功能、或者支持多种数据结构的缓存功能，那么Redis则是最佳选择。为了让缓存系统能够支持更多的业务场景，选择Redis会更优。</p>
 <h3 id="负载均衡"><a href="#负载均衡" class="headerlink" title="负载均衡"></a>负载均衡</h3><p>nginx支持的负载均衡调度算法，实现负载均衡</p>
 <h3 id="日志处理，监控告警"><a href="#日志处理，监控告警" class="headerlink" title="日志处理，监控告警"></a>日志处理，监控告警</h3><p>日志的记录，能帮助debug定位问题所在</p>
@@ -515,6 +516,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/07/23/union-is-strength/" rel="prev" title="团结就是力量">
+                团结就是力量 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -591,7 +596,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -604,7 +609,7 @@
               
               <div class="site-state-item site-state-tags">
                 
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">标签</span>
                 
               </div>
