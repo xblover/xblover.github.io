@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://xblover.github.io/"/>
   <updated>2019-07-28T09:00:01.612Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://xblover.github.io/</id>
   
   <author>
     <name>xubo</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>终极lnmp环境搭建</title>
-    <link href="http://yoursite.com/2019/07/28/the-ultimate-lnmp-environment-to-build/"/>
-    <id>http://yoursite.com/2019/07/28/the-ultimate-lnmp-environment-to-build/</id>
+    <link href="http://xblover.github.io/2019/07/28/the-ultimate-lnmp-environment-to-build/"/>
+    <id>http://xblover.github.io/2019/07/28/the-ultimate-lnmp-environment-to-build/</id>
     <published>2019-07-28T08:40:36.000Z</published>
     <updated>2019-07-28T09:00:01.612Z</updated>
     
@@ -35,14 +35,14 @@
     </summary>
     
     
-      <category term="lnmp" scheme="http://yoursite.com/tags/lnmp/"/>
+      <category term="lnmp" scheme="http://xblover.github.io/tags/lnmp/"/>
     
   </entry>
   
   <entry>
     <title>后端必知之php基础知识笔记</title>
-    <link href="http://yoursite.com/2019/07/25/php-notes/"/>
-    <id>http://yoursite.com/2019/07/25/php-notes/</id>
+    <link href="http://xblover.github.io/2019/07/25/php-notes/"/>
+    <id>http://xblover.github.io/2019/07/25/php-notes/</id>
     <published>2019-07-25T09:38:12.000Z</published>
     <updated>2019-07-28T07:49:04.002Z</updated>
     
@@ -59,14 +59,14 @@
     </summary>
     
     
-      <category term="PHP" scheme="http://yoursite.com/tags/PHP/"/>
+      <category term="PHP" scheme="http://xblover.github.io/tags/PHP/"/>
     
   </entry>
   
   <entry>
     <title>团结就是力量</title>
-    <link href="http://yoursite.com/2019/07/23/union-is-strength/"/>
-    <id>http://yoursite.com/2019/07/23/union-is-strength/</id>
+    <link href="http://xblover.github.io/2019/07/23/union-is-strength/"/>
+    <id>http://xblover.github.io/2019/07/23/union-is-strength/</id>
     <published>2019-07-23T13:46:41.000Z</published>
     <updated>2019-07-23T13:55:47.003Z</updated>
     
@@ -82,14 +82,14 @@
     </summary>
     
     
-      <category term="生活" scheme="http://yoursite.com/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="http://xblover.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
   <entry>
     <title>7-22-面试题准备</title>
-    <link href="http://yoursite.com/2019/07/22/7-22-interview-preparation/"/>
-    <id>http://yoursite.com/2019/07/22/7-22-interview-preparation/</id>
+    <link href="http://xblover.github.io/2019/07/22/7-22-interview-preparation/"/>
+    <id>http://xblover.github.io/2019/07/22/7-22-interview-preparation/</id>
     <published>2019-07-22T03:53:11.000Z</published>
     <updated>2019-07-25T09:19:20.267Z</updated>
     
@@ -110,8 +110,8 @@
   
   <entry>
     <title>go-命令</title>
-    <link href="http://yoursite.com/2019/07/20/go-command/"/>
-    <id>http://yoursite.com/2019/07/20/go-command/</id>
+    <link href="http://xblover.github.io/2019/07/20/go-command/"/>
+    <id>http://xblover.github.io/2019/07/20/go-command/</id>
     <published>2019-07-20T15:55:35.000Z</published>
     <updated>2019-07-20T15:56:03.505Z</updated>
     
@@ -131,14 +131,14 @@
     </summary>
     
     
-      <category term="go" scheme="http://yoursite.com/tags/go/"/>
+      <category term="go" scheme="http://xblover.github.io/tags/go/"/>
     
   </entry>
   
   <entry>
     <title>写博客的重要性</title>
-    <link href="http://yoursite.com/2019/07/17/the-importance-of-blog/"/>
-    <id>http://yoursite.com/2019/07/17/the-importance-of-blog/</id>
+    <link href="http://xblover.github.io/2019/07/17/the-importance-of-blog/"/>
+    <id>http://xblover.github.io/2019/07/17/the-importance-of-blog/</id>
     <published>2019-07-17T00:47:49.000Z</published>
     <updated>2019-07-17T02:22:04.005Z</updated>
     
@@ -158,8 +158,8 @@
   
   <entry>
     <title>hexo 命令</title>
-    <link href="http://yoursite.com/2019/07/16/hexo-help/"/>
-    <id>http://yoursite.com/2019/07/16/hexo-help/</id>
+    <link href="http://xblover.github.io/2019/07/16/hexo-help/"/>
+    <id>http://xblover.github.io/2019/07/16/hexo-help/</id>
     <published>2019-07-16T14:37:20.000Z</published>
     <updated>2019-07-16T15:28:51.000Z</updated>
     
@@ -179,21 +179,21 @@
   
   <entry>
     <title>hello myblog</title>
-    <link href="http://yoursite.com/2019/07/16/hello/"/>
-    <id>http://yoursite.com/2019/07/16/hello/</id>
+    <link href="http://xblover.github.io/2019/07/16/hello/"/>
+    <id>http://xblover.github.io/2019/07/16/hello/</id>
     <published>2019-07-16T14:03:17.000Z</published>
     <updated>2019-08-11T10:18:09.534Z</updated>
     
-    <content type="html"><![CDATA[<p>hello myblog</p><p><img src="/.com//281408194971071086.jpg" alt="image-1"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<p>hello myblog</p><p><img src="/.io//281408194971071086.jpg" alt="image-1"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;hello myblog&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/.com//281408194971071086.jpg&quot; alt=&quot;image-1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/.io//281408194971071086.jpg&quot; alt=&quot;image-1&quot;&gt;&lt;/p&gt;
 &lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji
+        document.querySelectorAll(&#39;.github-emoji&#39;
       
     
     </summary>
